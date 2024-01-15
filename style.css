@@ -80,3 +80,21 @@ body {
 .text-feedback{
     font-size: 16px;
 }
+
+.icon-bookmark {  
+    color: lightgray;
+}
+
+
+.icon-bookmark:hover {
+    fill: lightgray;
+    cursor: pointer;
+    transition: fill 0.15s linear 0.25s;
+}
+
+.card:hover{
+    transition: transform .2s;
+    box-shadow: 5px 5px 5px #dedede;
+    transform: scale(1.2);
+}
+
